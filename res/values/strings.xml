@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Silly Android Project</string>
+    <string name="labelText">words go  here</string>
+    <string name="funText">isnt it so fun?</string>
+    <string name="sarcasmText">ha</string>
+
+</resources>
