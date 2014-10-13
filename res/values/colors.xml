@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="uglyGreen">#aFFB30</color>
-    <color name="Cyan">#00FFFF</color>
+    <color name="cyan">#00FFFF</color>
     <color name="black">#000000</color>
     <color name="purple">#9933FF</color>
+    <color name="orange">#FF4C00</color>
     
 </resources>
