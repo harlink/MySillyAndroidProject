@@ -14,7 +14,7 @@ public class SillyActivity extends Activity
 	private Button appButton;
 	private TextView appText;
 	private RelativeLayout appLayout;
-	private ArrayList<String> colorList;
+	private ArrayList<Integer> colorList;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -26,19 +26,18 @@ public class SillyActivity extends Activity
 		appButton = (Button) findViewById(R.id.firstButton);
 		appText = (TextView) findViewById(R.id.sillyTextView);
 		appLayout = (RelativeLayout) findViewById(R.id.appLayout);
-		colorList = new ArrayList<String>();
+		
+		colorList = new ArrayList<Integer>();
 		fillTheColorList();
 		setupListeners();
 	}
 
 	private void fillTheColorList()
 	{
-		colorList.add(int, R.color.purple);
-		colorList.add(int, R.color.uglyGreen);
-		colorList.add(int, R.color.cyan);
-		colorList.add(int, R.color.orange);
-		colorList.add(int, R.color.orange);
-		
+		colorList.add( R.color.pink);
+		colorList.add( R.color.green);
+		colorList.add( R.color.cyan);
+		colorList.add( R.color.orange);	
 	}
 
 	private void setupListeners()
@@ -49,7 +48,7 @@ public class SillyActivity extends Activity
 			@Override
 			public void onClick(View v)
 			{
-				appLayout.setBackgroundResource(colorList.random());
+				//appLayout.setBackgroundResource(colorList.());
 
 				
 
